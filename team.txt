@@ -1,7 +1,7 @@
 Project name: OCR
 Project coordinator: Lect. dr. Benchea Razvan
 Project members:
-	- Chile Ovidiu-Benone		ovidiuchile@gmail.com
-	- Ilie Ionut-Octavian		ilie.ionutoctavian@gmail.com
-	- Unghianu Anda-Costina		anda.unghianu@gmail.com
-	- Popa Anca-Teodora			anca.teodora.p@gmail.com
+    - Chile Ovidiu-Benone       ovidiuchile@gmail.com
+    - Ilie Ionut-Octavian       ilie.ionutoctavian@gmail.com
+    - Unghianu Anda-Costina     anda.unghianu@gmail.com
+    - Popa Anca-Teodora         anca.teodora.p@gmail.com
