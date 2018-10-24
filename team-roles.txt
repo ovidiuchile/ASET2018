@@ -1,0 +1,4 @@
+Ovidiu-Benone Chile:    TeamLead Machine Learning Research
+Ionut-Octavian Ilie:    QA + Machine Learning Research
+Anda-Costina Unghianu:  Backend
+Anca-Teodora Popa:      Frontend
