@@ -56,7 +56,7 @@ class DatabaseConnection(EObject, metaclass=MetaEClass):
         raise NotImplementedError('operation delete_pic(...) not yet implemented')
 
     def update_password(self, name, new_pass):
-        raise NotImplementedError('operation delete_pic(...) not yet implemented')
+        raise NotImplementedError('operation update_password(...) not yet implemented')
 
 
 def main():
