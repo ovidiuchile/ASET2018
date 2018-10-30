@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="adapter" nsURI="http://www.example.org/adapter" nsPrefix="adapter">
+  <eSubpackages name="Adapter">
+    <eClassifiers xsi:type="ecore:EClass" name="Engine" abstract="true" interface="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="image" eType="#//Adapter/Image"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ImageBmp">
+      <eOperations name="getTextFromBmp"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ImageToBmp" eSuperTypes="#//Adapter/Image">
+      <eOperations name="getText"/>
+      <eOperations name="convertImage"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="image" eType="#//Adapter/ImageBmp"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Image" abstract="true" interface="true">
+      <eOperations name="getText"/>
+    </eClassifiers>
+  </eSubpackages>
+</ecore:EPackage>

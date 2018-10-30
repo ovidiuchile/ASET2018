@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="compositeIteratorVisitor" nsURI="http://www.example.org/CompositeIteratorVisitor" nsPrefix="CompositeIteratorVisitor">
+  <eSubpackages name="CompositeIteratorVisitor">
+    <eClassifiers xsi:type="ecore:EClass" name="Image" abstract="true" interface="true">
+      <eOperations name="getText"/>
+      <eOperations name="accept"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ImagePiece" eSuperTypes="#//CompositeIteratorVisitor/Image">
+      <eOperations name="getText"/>
+      <eOperations name="accept"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ImageComposite" eSuperTypes="#//CompositeIteratorVisitor/Image">
+      <eOperations name="getText"/>
+      <eOperations name="accept"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="image" upperBound="-1"
+          eType="#//CompositeIteratorVisitor/Image" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="IteratorInterface" abstract="true"
+        interface="true">
+      <eOperations name="first"/>
+      <eOperations name="next"/>
+      <eOperations name="isDone"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="EngineInterface" abstract="true" interface="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="composite" eType="#//CompositeIteratorVisitor/ImageComposite"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="iteratorinterface" eType="#//CompositeIteratorVisitor/IteratorInterface"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ImageIterator" eSuperTypes="#//CompositeIteratorVisitor/IteratorInterface"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Model" abstract="true" interface="true">
+      <eOperations name="visitImagePiece"/>
+      <eOperations name="visitImageComposite"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="NNModel" eSuperTypes="#//CompositeIteratorVisitor/Model">
+      <eOperations name="visitImagePiece"/>
+      <eOperations name="visitImageComposite"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="imagecomposite" eType="#//CompositeIteratorVisitor/ImageComposite"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="imagepiece" eType="#//CompositeIteratorVisitor/ImagePiece"/>
+    </eClassifiers>
+  </eSubpackages>
+</ecore:EPackage>
