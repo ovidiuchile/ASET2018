@@ -1,0 +1,17 @@
+1.singleton:
+    - serverul sau reteaua sau baza de date (baza de date cel mai bine)
+2.composite:
+    - imaginea mare e splituita in mai multe imagini mai mici, cu cate o litera
+3.iterator:
+    - undeva. ar fi o idee la bucatile de imagine (o bucata contine un caracter) (practic se merge prin frunzele din composite)
+    - la iterator, cand se ajunge la un element, in element.accept() se apeleaza retea.visit()
+4.visitor (vezi 3)
+    - bucatile de imagini sunt vizitate de catre diverse modele antrenate de RN-uri
+5.memento:
+    - practic la serializarea rn-ului
+6.strategy 
+    - engine-ul pt OCR foloseste ori RN, ori engine importat
+7.wrapper
+    - pt statistici ale rezultatelor rn-ului
+8.adapter:
+    - transformam imagini .png, .jpg sau ce o fi in .bmp, de ex
