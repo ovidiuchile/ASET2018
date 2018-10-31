@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="memento" nsURI="http://www.example.org/memento" nsPrefix="memento">
+  <eSubpackages name="Memento">
+    <eClassifiers xsi:type="ecore:EClass" name="Model" abstract="true" interface="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="NNModel" eSuperTypes="#//Memento/Model">
+      <eOperations name="getState"/>
+      <eOperations name="setState"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="NNEngine" eSuperTypes="#//Memento/Engine">
+      <eOperations name="createMemento"/>
+      <eOperations name="restore"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="nnmodel" eType="#//Memento/NNModel"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Engine" abstract="true" interface="true"/>
+  </eSubpackages>
+</ecore:EPackage>

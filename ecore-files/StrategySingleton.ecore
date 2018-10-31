@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="StrategySingleton" nsURI="http://www.example.org/StrategySingleton" nsPrefix="strategySingleton">
+  <eSubpackages name="Strategy">
+    <eClassifiers xsi:type="ecore:EClass" name="NeuralNetworkStrategy" eSuperTypes="#//Strategy/Strategy">
+      <eOperations name="execute"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Strategy" abstract="true" interface="true">
+      <eOperations name="execute"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="OCRadStrategy" eSuperTypes="#//Strategy/Strategy">
+      <eOperations name="execute"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="Singleton">
+    <eClassifiers xsi:type="ecore:EClass" name="DatabaseConnection">
+      <eOperations name="getInstance"/>
+    </eClassifiers>
+  </eSubpackages>
+</ecore:EPackage>
