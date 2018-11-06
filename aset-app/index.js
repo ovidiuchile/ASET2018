@@ -41,3 +41,8 @@ app.post('/upload', upload.any(), function(req, res) {
     res.send('File uploaded!');
     res.end();
 });
+
+app.get('/', function(req, res) {
+    res.send('Server is up!');
+    res.end();
+})
