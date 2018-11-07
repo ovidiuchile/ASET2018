@@ -75,4 +75,3 @@ save_model(model, 'model.h5')
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test score:', score[0])
 print('Test accuracy:', score[1])
-
