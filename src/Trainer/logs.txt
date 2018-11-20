@@ -1,0 +1,428 @@
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 151, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 12, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 9, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():
+File "train.py", line 144, in <module>
+    net.train(train_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 118, in train
+    self.test(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 14, in wrapper
+    return func(self, x)
+File "train.py", line 131, in test
+    argmax = net.predict(test_set)
+File "C:\Users\Asus\Documents\FII\master I\ip\project\ASET2018\src\Trainer\decorators.py", line 11, in wrapper
+    for line in traceback.format_stack():

@@ -3,6 +3,8 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 import random
+from tqdm import tqdm
+from decorators import logging_decorator
 
 
 class NN(object):
@@ -40,7 +42,7 @@ class NN(object):
         plt.title(val_label)
         plt.show()
 
-    @staticmethod
+    @staticmethod    
     def get_batches(train_set, batch_sz=500):
         batches = []
         train_set_len = len(train_set[0])
@@ -57,7 +59,7 @@ class NN(object):
         else:
             return np.array([NN.get_target(t[i])
                              for i in range(len(t))])
-
+    
     def sigmoid(self, x):
         x = np.clip(x, -100, 100)
         return 1 / (1 + np.exp(-x))
@@ -75,24 +77,25 @@ class NN(object):
     def softmax_4batch(self, x):
         return np.apply_along_axis(self.softmax, 0, x)
 
+    @logging_decorator
     def train(self, train_set, l2=0.1, batch_sz=500,
               eta=0.01, alpha=0.5, epochs=20):
         batches = NN.get_batches(train_set, batch_sz)
         w1_prev = np.zeros(self.w1.shape)
         w2_prev = np.zeros(self.w2.shape)
-        for i in range(epochs):
-            print('Epoch %d' % i)
+        for i in tqdm(range(epochs)):
+            print(' Epoch %d' % i)
             eta = eta / (1.0 + 0.001 * i)
 
             for batch in batches:
                 z1 = batch[0]
 
                 z2 = self.w1.dot(z1.T) + \
-                    np.repeat(self.b1, batch_sz).reshape(100, batch_sz)
+                     np.repeat(self.b1, batch_sz).reshape(100, batch_sz)
                 y2 = self.sigmoid(z2)
 
                 z3 = self.w2.dot(y2) + \
-                    np.repeat(self.b2, batch_sz).reshape(10, batch_sz)
+                     np.repeat(self.b2, batch_sz).reshape(10, batch_sz)
                 y3 = self.softmax_4batch(z3)
 
                 target = NN.get_target(batch[1]).T
@@ -113,7 +116,7 @@ class NN(object):
 
             if test_set:
                 self.test(test_set)
-
+    @logging_decorator
     def predict(self, X):
         z2 = self.w1.dot(X[0].T)
         y2 = self.sigmoid(z2)
@@ -123,6 +126,7 @@ class NN(object):
 
         return np.argmax(y3, axis=0)
 
+    @logging_decorator
     def test(self, test_set):
         argmax = net.predict(test_set)
         acc = float(np.sum(test_set[1] == argmax)) / test_set[0].shape[0]
