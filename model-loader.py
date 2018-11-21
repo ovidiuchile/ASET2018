@@ -55,7 +55,7 @@ def predict(i):
     try:
         image = x_test_all[i].reshape(1, 28, 28, 1)
         letter = get_prediction_with_neural_network(image)
-        print('Predicted ok:', letter)
+        print('Predicted:', letter)
         return image, letter
     except BaseException:
         print("Invalid Image")
