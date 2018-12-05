@@ -6,7 +6,7 @@ const port = 8000;
 const multer = require('multer');
 const bodyParser = require('body-parser');
 const uuidv1 = require('uuid/v1');
-const rnScriptPath = 'rn/mockup.py';
+const rnScriptPath = 'rn/nn_get_text.py';
 const { exec } = require('child_process');
 const fs = require('fs');
 
@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.post('/upload', upload.single('image'), function(req, res) {
     let filename = req.file.filename;
-    icr(__dirname + '/uploads/' + filename, function(icrResult) {
+    icr(__dirname + '/uploads/' + filename, req.file.originalname, function(icrResult) {
         res.send(icrResult);
         res.end();
     });
@@ -36,8 +36,8 @@ app.listen(port, function() {
     console.log(`Example app listening on port ${port}!`);
 });
 
-let icr = function(filePath, callback) {
-    exec('python ' + rnScriptPath + ' ' + filePath, function(err, stdout, stderr) {
+let icr = function(filePath, originalname, callback) {
+    exec('python ' + rnScriptPath + ' ' + filePath + ' "' + originalname + '"', function(err, stdout, stderr) {
         if (err) {
             return callback('ERR');
         };
