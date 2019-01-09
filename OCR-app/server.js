@@ -48,6 +48,7 @@ app.post('/upload', upload.single('image'), function(req, res) {
     }, function(err, resp, body) {
         // res.send(body);
         console.log(body);
+        res.send(body);
         res.end();
     });
 });
