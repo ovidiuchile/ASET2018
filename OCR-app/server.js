@@ -26,8 +26,26 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.post('/upload', upload.single('image'), function(req, res) {
     let filename = req.file.filename;
-    icr(__dirname + '/uploads/' + filename, req.file.originalname, function(icrResult) {
-        res.send(icrResult);
+    // icr(__dirname + '/uploads/' + filename, req.file.originalname, function(icrResult) {
+    //     res.send(icrResult);
+    //     res.end();
+    // });
+    request({
+      url: 'http://127.0.0.1:5000',
+      method: 'POST',
+      formData: {
+        'regularField': 'someValue',
+        'regularFile': someFileStream,
+        'customBufferFile': {
+          value: fileBufferData,
+          options: {
+            filename: 'myfile.bin'
+          }
+        }
+      }
+    }, function(err, resp, body) {
+        // res.send(body);
+        console.log(body);
         res.end();
     });
 });
@@ -38,10 +56,10 @@ app.listen(port, function() {
 
 let icr = function(filePath, originalname, callback) {
     exec('python ' + rnScriptPath + ' ' + filePath + ' "' + originalname + '"', function(err, stdout, stderr) {
-        if (err) {
-            return callback('ERR');
-        };
-        let rnResult = fs.readFileSync(filePath + '_icr.txt');
-        return callback(rnResult);
+       if (err) {
+           return callback('ERR');
+       };
+       let rnResult = fs.readFileSync(filePath + '_icr.txt');
+       return callback(rnResult);
     });
 };

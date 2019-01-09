@@ -16,8 +16,9 @@ logger.addHandler(fh)
 def exception_catcher(func):
     def inner(a, b):
         try:
-            func(a, b)
+            res = func(a, b)
             logger.info("Success case: %s %s", a, b)
+            return res
         except BaseException as exc:
             logger.exception("Fail case: %s %s\n%s", a, b, exc)
             raise exc
