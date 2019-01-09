@@ -1,0 +1,1 @@
+[WinError 2] The system cannot find the file specified: 'C:\\Users\\ochile\\Desktop\\fac\\master\\ASET\\project\\aset-app/uploads/BunaSeara012.jpg'
