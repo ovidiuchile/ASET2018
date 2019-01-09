@@ -1,1 +1,0 @@
-Image size must be lower than 1 mb
