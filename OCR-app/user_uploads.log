@@ -1,0 +1,215 @@
+2018-12-05 00:03:08,997 - user_uploads - ERROR - Fail case: Image extension not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 32, in check_valid_image
+    raise Exception('Image extension not recognized')
+Exception: Image extension not recognized
+2018-12-05 00:03:33,825 - user_uploads - ERROR - Fail case: Image extension not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 33, in check_valid_image
+    raise Exception('Image extension not recognized')
+Exception: Image extension not recognized
+2018-12-05 00:04:43,923 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/99e99f30-f810-11e8-9f3a-0f79ba24a32f emnist_model.h5
+Image size must be lower than 1 mb
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 30, in check_valid_image
+    raise Exception('Image size must be lower than 1 mb')
+Exception: Image size must be lower than 1 mb
+2018-12-05 00:05:09,434 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/a92d3ec0-f810-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:07:00,532 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/eb6637b0-f810-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:07:40,000 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/02ed2ab0-f811-11e8-9f3a-0f79ba24a32f convex_hulls_get.py
+Image extension not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 33, in check_valid_image
+    raise Exception('Image extension not recognized')
+Exception: Image extension not recognized
+2018-12-05 00:07:46,408 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/06b3a890-f811-11e8-9f3a-0f79ba24a32f emnist_model.h5
+Image size must be lower than 1 mb
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 30, in check_valid_image
+    raise Exception('Image size must be lower than 1 mb')
+Exception: Image size must be lower than 1 mb
+2018-12-05 00:07:52,007 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/0a145fc0-f811-11e8-9f3a-0f79ba24a32f test_image.jpg
+2018-12-05 00:08:14,509 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/177b2900-f811-11e8-9f3a-0f79ba24a32f convex_hulls_get.jpg
+Image header not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 38, in check_valid_image
+    raise Exception('Image header not recognized')
+Exception: Image header not recognized
+2018-12-05 00:08:24,072 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/1d35fcd0-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:08:33,040 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/227add50-f811-11e8-9f3a-0f79ba24a32f convex_hulls_get.jpg
+Image header not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 38, in check_valid_image
+    raise Exception('Image header not recognized')
+Exception: Image header not recognized
+2018-12-05 00:10:12,500 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/5dca1f60-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:10:18,629 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/617c2ae0-f811-11e8-9f3a-0f79ba24a32f test_image.jpg
+2018-12-05 00:10:26,870 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/665d1970-f811-11e8-9f3a-0f79ba24a32f 45128014_282428435729068_6805790969489784832_n (2).jpg
+2018-12-05 00:11:24,677 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/88d39420-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:11:36,064 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/8f8af060-f811-11e8-9f3a-0f79ba24a32f test_image.jpg
+2018-12-05 00:11:44,190 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/94746a70-f811-11e8-9f3a-0f79ba24a32f 45128014_282428435729068_6805790969489784832_n (2).jpg
+2018-12-05 00:14:10,928 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ebec1410-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:14:12,677 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ebec1410-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:14:16,832 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ef6646b0-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:14:18,643 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ef6646b0-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:14:31,706 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/f8523630-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:14:33,516 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/f8523630-f811-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:14:44,246 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ffc604a0-f811-11e8-9f3a-0f79ba24a32f 45128014_282428435729068_6805790969489784832_n (2).jpg
+2018-12-05 00:14:47,406 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ffc604a0-f811-11e8-9f3a-0f79ba24a32f 45128014_282428435729068_6805790969489784832_n (2).jpg
+No text found
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "rn/nn_get_text.py", line 150, in handle_valid_image
+    raise Exception("No text found")
+Exception: No text found
+2018-12-05 00:28:08,356 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/deee8200-f813-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:28:10,203 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/deee8200-f813-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 00:28:15,958 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/e38f0c30-f813-11e8-9f3a-0f79ba24a32f 45128014_282428435729068_6805790969489784832_n (2).jpg
+2018-12-05 00:28:19,293 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/e38f0c30-f813-11e8-9f3a-0f79ba24a32f 45128014_282428435729068_6805790969489784832_n (2).jpg
+No text found
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "rn/nn_get_text.py", line 150, in handle_valid_image
+    raise Exception("No text found")
+Exception: No text found
+2018-12-05 00:28:26,333 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/e9bc02c0-f813-11e8-9f3a-0f79ba24a32f convex_hulls_get.jpg
+Image header not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 38, in check_valid_image
+    raise Exception('Image header not recognized')
+Exception: Image header not recognized
+2018-12-05 00:28:32,264 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ed4a3290-f813-11e8-9f3a-0f79ba24a32f convex_hulls_get.py
+Image extension not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 33, in check_valid_image
+    raise Exception('Image extension not recognized')
+Exception: Image extension not recognized
+2018-12-05 00:28:37,738 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/f07d4a10-f813-11e8-9f3a-0f79ba24a32f emnist_model.h5
+Image size must be lower than 1 mb
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 30, in check_valid_image
+    raise Exception('Image size must be lower than 1 mb')
+Exception: Image size must be lower than 1 mb
+2018-12-05 00:28:43,742 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/f41c1bb0-f813-11e8-9f3a-0f79ba24a32f test_image.jpg
+2018-12-05 00:28:47,376 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/f41c1bb0-f813-11e8-9f3a-0f79ba24a32f test_image.jpg
+2018-12-05 10:27:27,461 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/984d68d0-f867-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 10:27:29,257 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/984d68d0-f867-11e8-9f3a-0f79ba24a32f BunaSeara012.jpg
+2018-12-05 10:27:38,856 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/9f2b86f0-f867-11e8-9f3a-0f79ba24a32f convex_hulls_get.jpg
+Image header not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 38, in check_valid_image
+    raise Exception('Image header not recognized')
+Exception: Image header not recognized
+2018-12-05 10:27:45,854 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/a35a1570-f867-11e8-9f3a-0f79ba24a32f convex_hulls_get.py
+Image extension not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 33, in check_valid_image
+    raise Exception('Image extension not recognized')
+Exception: Image extension not recognized
+2018-12-05 10:27:52,829 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/a76c9070-f867-11e8-9f3a-0f79ba24a32f emnist_model.h5
+Image size must be lower than 1 mb
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 30, in check_valid_image
+    raise Exception('Image size must be lower than 1 mb')
+Exception: Image size must be lower than 1 mb
+2018-12-05 10:27:59,228 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ab4fbe10-f867-11e8-9f3a-0f79ba24a32f test_image.jpg
+2018-12-05 10:28:02,751 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/ab4fbe10-f867-11e8-9f3a-0f79ba24a32f test_image.jpg
+2018-12-05 10:28:07,627 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/b04768f0-f867-11e8-9f3a-0f79ba24a32f 45128014_282428435729068_6805790969489784832_n (2).jpg
+2018-12-05 10:28:10,849 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/b04768f0-f867-11e8-9f3a-0f79ba24a32f 45128014_282428435729068_6805790969489784832_n (2).jpg
+No text found
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "rn/nn_get_text.py", line 150, in handle_valid_image
+    raise Exception("No text found")
+Exception: No text found
+2018-12-05 10:51:10,748 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/e8a9bce0-f86a-11e8-99fe-996001fe6ddf BunaSeara012.jpg
+2018-12-05 10:51:12,484 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/e8a9bce0-f86a-11e8-99fe-996001fe6ddf BunaSeara012.jpg
+2018-12-05 11:01:32,075 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/5b00b6d0-f86c-11e8-99fe-996001fe6ddf BunaSeara012.jpg
+2018-12-05 11:01:33,851 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/5b00b6d0-f86c-11e8-99fe-996001fe6ddf BunaSeara012.jpg
+2018-12-05 11:01:42,767 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/61631540-f86c-11e8-99fe-996001fe6ddf 45128014_282428435729068_6805790969489784832_n (2).jpg
+2018-12-05 11:01:46,010 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/61631540-f86c-11e8-99fe-996001fe6ddf 45128014_282428435729068_6805790969489784832_n (2).jpg
+No text found
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "rn/nn_get_text.py", line 150, in handle_valid_image
+    raise Exception("No text found")
+Exception: No text found
+2018-12-05 11:01:56,194 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/6964f2e0-f86c-11e8-99fe-996001fe6ddf convex_hulls_get.py
+Image extension not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 33, in check_valid_image
+    raise Exception('Image extension not recognized')
+Exception: Image extension not recognized
+2018-12-05 11:02:01,449 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/6c747cd0-f86c-11e8-99fe-996001fe6ddf convex_hulls_get.py
+Image extension not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 33, in check_valid_image
+    raise Exception('Image extension not recognized')
+Exception: Image extension not recognized
+2018-12-05 11:02:09,882 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/718ecae0-f86c-11e8-99fe-996001fe6ddf convex_hulls_get.jpg
+Image header not recognized
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 38, in check_valid_image
+    raise Exception('Image header not recognized')
+Exception: Image header not recognized
+2018-12-05 11:02:25,926 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/7b0dd2a0-f86c-11e8-99fe-996001fe6ddf emnist_model.h5
+Image size must be lower than 1 mb
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app\rn\monitor.py", line 30, in check_valid_image
+    raise Exception('Image size must be lower than 1 mb')
+Exception: Image size must be lower than 1 mb
+2018-12-05 11:02:32,096 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/7ecab390-f86c-11e8-99fe-996001fe6ddf test_image.jpg
+2018-12-05 11:02:35,627 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\aset-app/uploads/7ecab390-f86c-11e8-99fe-996001fe6ddf test_image.jpg
+2019-01-09 09:45:22,330 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app/uploads/791ed070-13e2-11e9-95be-df0fa7c856df 45128014_282428435729068_6805790969489784832_n (2).jpg
+2019-01-09 09:45:22,330 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app/uploads/81c3cbe0-13e2-11e9-95be-df0fa7c856df BunaSeara012.jpg
+2019-01-09 09:45:24,376 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app/uploads/81c3cbe0-13e2-11e9-95be-df0fa7c856df BunaSeara012.jpg
+2019-01-09 09:45:25,855 - user_uploads - ERROR - Fail case: C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app/uploads/791ed070-13e2-11e9-95be-df0fa7c856df 45128014_282428435729068_6805790969489784832_n (2).jpg
+No text found
+Traceback (most recent call last):
+  File "C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app\rn\monitor.py", line 19, in inner
+    func(a, b)
+  File "rn/nn_get_text.py", line 150, in handle_valid_image
+    raise Exception("No text found")
+Exception: No text found
+2019-01-09 09:46:20,338 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app/uploads/a64f1cd0-13e2-11e9-a818-31cca2c7de8b test_image.jpg
+2019-01-09 09:46:23,569 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app/uploads/a64f1cd0-13e2-11e9-a818-31cca2c7de8b test_image.jpg
+2019-01-09 09:49:30,438 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app/uploads/179845b0-13e3-11e9-bba1-179bf66f216d BunaSeara012.jpg
+2019-01-09 09:49:32,140 - user_uploads - INFO - Success case: C:\Users\ochile\Desktop\fac\master\ASET\project\OCR-app/uploads/179845b0-13e3-11e9-bba1-179bf66f216d BunaSeara012.jpg
